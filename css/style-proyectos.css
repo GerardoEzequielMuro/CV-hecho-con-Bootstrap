@@ -1,0 +1,39 @@
+* {
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+}
+.nav-item:hover {
+  background-color: #e45d22;
+  padding: 10px;
+}
+.navbar-brand:hover {
+  background-color: #e45d22;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #000;
+}
+.nav-link {
+  color: #fff;
+}
+.navbar-toggler {
+  background-color: #fff;
+}
+
+h4,
+h5,
+h3,
+span {
+  font-weight: bold;
+}
+
+
+.pie {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+}

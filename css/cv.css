@@ -1,0 +1,125 @@
+* {
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.nav-item:hover {
+  background-color: #e45d22;
+  padding: 10px;
+}
+
+.navbar-brand:hover {
+  background-color: #e45d22;
+  padding: 10px;
+}
+.navbar {
+  background-color: #000;
+}
+.nav-link {
+  color: white;
+}
+.navbar-toggler {
+  background-color: #fff;
+}
+
+h4,
+h5,
+h3,
+span {
+  font-weight: bold;
+}
+
+.experiencia {
+  margin-left: 10px;
+}
+.experiencia h3 {
+  text-align: center;
+}
+.experiencia dl {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sobre-mi h4{
+  text-align: center;
+}
+
+.sobre-mi {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.tarjetas {
+  color: #FF8B00;
+}
+
+.formacion h4 {
+  text-align: center;
+}
+
+.html-color {
+  background-color: #e45d22;
+  color: #fff;
+}
+.css-color {
+    background-color: #2449d8;
+    color: #fff;
+}
+
+.bootstrap-color {
+  background-color: #7431f9;
+  color: #fff;
+}
+
+.js-color {
+  background-color: #898989;
+  color: #fff;
+}
+
+.python-color{
+    background-image: linear-gradient(#898989,#898989);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.mysql-color {
+    background-color: #898989;
+    color: #fff;
+}
+
+
+.pie {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tarjetas {
+    width: 35vw !important;
+    height: 35vh !important;
+
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tarjetas {
+    width: 35vw !important;
+    height: 35vh !important;
+
+  }
+}
